@@ -30,7 +30,7 @@
 #'  \item{phi}{The survival probability and remaining in the population between occasion t and t+1.}
 #'  \item{p}{The capture probability at occasion time t.}
 #'  \item{ll}{The optimized log-likelihood value of marked model.}
-#'  \item{hessian}{The hessian matrix.}
+#'  \item{SE}{The standard error for each parameter.}
 #'  \item{AIC}{The Akaike Information Criteria for model selection.}
 #' }
 #'
@@ -240,7 +240,7 @@ batchMarkOptim <- function(par=NULL, data, covariate_phi = NULL, covariate_p = N
 #'  \item{phi}{The survival probability and remaining in the population between occasion t and t+1.}
 #'  \item{p}{The capture probability at occasion time t.}
 #'  \item{ll}{The optimized log-likelihood value of marked model.}
-#'  \item{hessian}{The hessian matrix.}
+#'  \item{SE}{The standard error for each parameter.}
 #'  \item{AIC}{The Akaike Information Criteria for model selection.}
 #'  \item{lambda}{Initial mean abundance at occasion t = 1.}
 #'  \item{gam}{Recruitment rate of individual into the unmarked population.}

@@ -2,7 +2,7 @@ Package: extBatchMarking
 Type: Package
 Title: Extended Batch Marking Models
 Version: 1.1.0
-Date: 2023-12-08
+Date: 2024-10-04
 Maintainer: Kehinde Olobatuyi <olobatuyikenny@uvic.ca>
 Authors@R: 
     c(person(given = "Kehinde",

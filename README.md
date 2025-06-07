@@ -153,6 +153,16 @@ arguments of the functions should be revisited.
 
 ## Example 3
 
+theta <- c(0, -1)
+
+res <- batchMarkOptim(par           = theta,
+                      data          = WeatherLoach,
+                      choiceModel   = "model4",
+                      method        = "BFGS", 
+                      control       = list(trace = 1),
+                      covariate_phi = NULL,
+                      covariate_p   = NULL)
+
     #> initial  value 132.334856 
     #> final  value 124.984186 
     #> converged
